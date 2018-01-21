@@ -1,9 +1,6 @@
 //
 //  InputViewController.swift
-//  OFOBike
-//
-//  Created by kingcos on 16/05/2017.
-//  Copyright © 2017 kingcos. All rights reserved.
+//  NavVis
 //
 
 import UIKit

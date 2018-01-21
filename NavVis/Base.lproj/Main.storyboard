@@ -19,7 +19,7 @@
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="OFOBike" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="NavVis" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -123,7 +123,7 @@
         <!--Activity View Controller-->
         <scene sceneID="4Zr-f2-LL8">
             <objects>
-                <viewController id="3GJ-j5-ah4" customClass="ActivityViewController" customModule="OFOBike" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3GJ-j5-ah4" customClass="ActivityViewController" customModule="NavVis" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jZM-RP-6Mp"/>
                         <viewControllerLayoutGuide type="bottom" id="xpN-ks-C4B"/>
@@ -181,7 +181,7 @@
         <!--Side Menu Table View Controller-->
         <scene sceneID="n9X-hZ-bsM">
             <objects>
-                <tableViewController id="VXz-Xq-12q" customClass="SideMenuTableViewController" customModule="OFOBike" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="VXz-Xq-12q" customClass="SideMenuTableViewController" customModule="NavVis" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="SWx-zO-jwF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -216,8 +216,8 @@
                                                         <stackView opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="DBb-xC-1vV">
                                                             <rect key="frame" x="90" y="3" width="73" height="74"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OFO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tpR-AL-DbJ">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="35.5" height="20.5"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tpR-AL-DbJ">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="38" height="20.5"/>
                                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
@@ -515,7 +515,7 @@
         <!--About Us View Controller-->
         <scene sceneID="x9p-8I-IBK">
             <objects>
-                <viewController id="vM3-HJ-nZR" customClass="AboutUsViewController" customModule="OFOBike" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vM3-HJ-nZR" customClass="AboutUsViewController" customModule="NavVis" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZDm-sj-qgC"/>
                         <viewControllerLayoutGuide type="bottom" id="KCl-fv-BIu"/>
@@ -536,7 +536,7 @@
         <!--Show Error View Controller-->
         <scene sceneID="BXl-3h-HQl">
             <objects>
-                <viewController id="aby-1u-xfB" customClass="ShowErrorViewController" customModule="OFOBike" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="aby-1u-xfB" customClass="ShowErrorViewController" customModule="NavVis" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9ki-ko-4pM"/>
                         <viewControllerLayoutGuide type="bottom" id="izY-r3-Wu9"/>
@@ -636,7 +636,7 @@
         <!--Scan View Controller-->
         <scene sceneID="DQK-4l-AiV">
             <objects>
-                <viewController id="d82-yc-iqt" customClass="ScanViewController" customModule="OFOBike" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="d82-yc-iqt" customClass="ScanViewController" customModule="NavVis" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XwB-vX-qG5"/>
                         <viewControllerLayoutGuide type="bottom" id="uwe-Lj-eOS"/>
@@ -720,7 +720,7 @@
         <!--Input View Controller-->
         <scene sceneID="7Yu-cb-JGL">
             <objects>
-                <viewController id="Umb-4e-zzs" customClass="InputViewController" customModule="OFOBike" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Umb-4e-zzs" customClass="InputViewController" customModule="NavVis" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vax-3r-kPr"/>
                         <viewControllerLayoutGuide type="bottom" id="IWp-La-ya9"/>
@@ -845,7 +845,7 @@
         <!--车辆解锁-->
         <scene sceneID="TvX-n6-KkM">
             <objects>
-                <viewController id="EhK-qS-MBf" customClass="ShowPasscodeViewController" customModule="OFOBike" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="EhK-qS-MBf" customClass="ShowPasscodeViewController" customModule="NavVis" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Jlh-9G-Wpk"/>
                         <viewControllerLayoutGuide type="bottom" id="mM8-Bx-x9w"/>

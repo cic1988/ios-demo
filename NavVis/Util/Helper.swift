@@ -1,9 +1,6 @@
 //
 //  Helper.swift
-//  OFOBike
-//
-//  Created by kingcos on 21/05/2017.
-//  Copyright © 2017 kingcos. All rights reserved.
+//  NavVis
 //
 
 import Foundation

@@ -2,9 +2,6 @@
 //  ActivityViewController.swift
 //  NavVis
 //
-//  Created by Yuan Gao on 08/01/2018.
-//  Copyright © 2018 Yuan Gao. All rights reserved.
-//
 
 import UIKit
 import WebKit

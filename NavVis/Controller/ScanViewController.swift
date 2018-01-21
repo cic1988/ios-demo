@@ -1,9 +1,6 @@
 //
 //  ScanViewController.swift
-//  OFOBike
-//
-//  Created by kingcos on 14/05/2017.
-//  Copyright © 2017 kingcos. All rights reserved.
+//  NavVis
 //
 
 import UIKit
@@ -48,8 +45,10 @@ class ScanViewController: LBXScanViewController {
 }
 
 // MARK: Setup
-extension ScanViewController {func setup() {
-        title = "扫码用车"
+extension ScanViewController {
+    
+    fileprivate func setup() {
+        title = "Scan and Find"
         var style = LBXScanViewStyle()
         style.anmiationStyle = .NetGrid
         style.animationImage = UIImage(named: "CodeScan.bundle/qrcode_scan_part_net")
