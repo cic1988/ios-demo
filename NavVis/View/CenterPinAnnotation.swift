@@ -5,6 +5,6 @@
 
 import Foundation
 
-class CenterPinAnnotation: MAPointAnnotation {
+/*class CenterPinAnnotation: MAPointAnnotation {
     
-}
+}*/

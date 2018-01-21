@@ -22,6 +22,17 @@ class ActivityViewController: UIViewController, UIGestureRecognizerDelegate {
 
 // MARK: UI related
 extension ActivityViewController {
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.interactivePopGestureRecognizer?.isEnabled = false
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        self.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
+    }
+
     fileprivate func setupUI() {
         title = "NavVis Homepage"
 

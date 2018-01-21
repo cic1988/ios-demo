@@ -6,18 +6,18 @@
 import UIKit
 import SWRevealViewController
 import FTIndicator
-import NavvisSdk
+//import NavvisSdk
 
 class HomeViewController: UIViewController {
     
     @IBOutlet weak var panelView: UIView!
     
     // Map related
-    var mapView: NavvisMapView!
+    /*var mapView: NavvisMapView!
     var navvisMap: NavvisMap?
     
     var poiSearchResult: [PoiSearchResult] = []
-    var site: NavvisSite?
+    var site: NavvisSite?*/
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,7 +62,7 @@ extension HomeViewController {
     }
 
     private func setupMapView() {
-        mapView = NavvisMapView(frame: view.bounds)
+        /*mapView = NavvisMapView(frame: view.bounds)
         
         mapView.loadMap(url: "https://www.navvis.com/iv.nav-demo/") { [weak self] (result) in
 
@@ -75,7 +75,7 @@ extension HomeViewController {
                 strongSelf.navvisMap = navvisMap
             }
         }
-        view.addSubview(mapView)
+        view.addSubview(mapView)*/
     }
     
     private func setupPanelView() {

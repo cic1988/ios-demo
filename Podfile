@@ -14,11 +14,6 @@ target 'NavVis' do
   # Side menu
   pod 'SWRevealViewController'
   
-  # Map
-  pod 'AMapNavi'
-  pod 'AMapSearch'
-  pod 'AMapLocation'
-  
   # HUD
   pod 'FTIndicator'
 
@@ -33,9 +28,6 @@ target 'NavVis' do
   
   # Sounds
   pod 'SwiftySound'
-  
-  # Lean Cloud
-  pod 'AVOSCloud'
   
   # Pop up
   pod 'MIBlurPopup'
